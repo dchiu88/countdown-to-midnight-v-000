@@ -1,4 +1,5 @@
 #write your code here
+require 'pry'
 
 def countdown(number)
   while number > 0
@@ -6,4 +7,5 @@ def countdown(number)
     number -= 1
   end
   "HAPPY NEW YEAR!"
+  binding.pry
 end
